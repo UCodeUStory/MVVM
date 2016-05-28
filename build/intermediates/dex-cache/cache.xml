@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_891421f7ee8e5964ada4eecd05e1b6330b959a9a.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_cbfe1c2ace11e3c709893124562819b2bb64bd76.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_de433f981240a98056bf95c1b44d15643e398b95.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_428dc1fdfef77f49a608893c104ae13bb1b1df82.jar" />
+    </item>
+    <item
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_ff29343e76156bb2992d43788fdbd51cd90a4617.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.0-rc3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2af1f443cdb8cb78e1195b9b99013a6089ab35b0">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.0-rc3_5d109e106666e27d3a1971d7ec3701dba354e481.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_a237e8796020750a2172f289b236b232302f055c.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\1.0-rc5\baseLibrary-1.0-rc5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="514f29921d8a6c78c48d73c8b66033cffbf12f5c">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\baseLibrary-1.0-rc5_f075fefc2f470fb3abe98ba9a37c388c7f3c1f6e.jar" />
+    </item>
+    <item
+        jar="D:\MVVM\app\build\intermediates\exploded-aar\com.android.databinding\library\1.0-rc3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="acaeec786da68e5cfc30134c36cb5645a8a0c6ba">
+        <dex dex="D:\MVVM\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.0-rc3_fa0463af3f9fdac1cd811acdba7015364c4e1cb3.jar" />
+    </item>
+
+</items>
