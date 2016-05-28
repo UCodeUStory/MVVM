@@ -1,0 +1,18 @@
+1.核心类 AbsActivity,AbsModule,IOCProxy,ModuleFactory
+
+初步想法：每个Activity，都应该创建一个Module，里面处理网络请求和业务逻辑，然后回调给Activity，Activity来分配给页面呈现；
+
+MVC：Activity 处理网络请求，直接回调给Activity，Activity呈现给View数据
+
+MVP 设计思想，Activity 实现一个View接口，View接口用来获取和呈现View数据，将View接口给委托给presenter，presenter 创建Model执行网络请求后回调这个View接口的对应方法；
+
+MVVM 该如何设计呢？
+
+我们也需要一个model，这里叫Module，我们不要Presenter，那我们就需要在Activity 直接创建Module，（按照正常思路Activity 需要在创建module时，给他一个回调对象，不管定义一个内部类还是外部类，我们在这个回调对象的方法还是要回调activity里面的方法（才能更新UI或者直接更新也可以，需要将View对象变成Final的形式），因此我们考虑将Activity自身作为一个回调对象，那他必须有对应的回调方法，（以前定义不同的View接口来作为实现类形式）但是代码混乱，先考虑用另一种方式，给他们提供统一的回调接口，就两个成功失败，分别用code码，和Object类型返回值接受所有类型数据；（因为所有Activity回调相同，所以回调封装到基类里面命名AbsActivity，我们在AbsActivity
+里面在创建一个IOCProxy ，代理module对象，同时给module网络请求成功后会回调两个方法；
+因为统一了就两个，因此抽取出来到ABSModule里面，同时我们要有个注入回调对象的方法，类似于setListener,因此请求成功后就能回调这个对象的方法；而这个注入的回调对象是谁好呢？是IOCProxy。IOCproxy 在回调给Activity，
+
+
+//最后流程是这样的Activity初始化时，创建一个IOCProxy ,当一个module创建的时候同时，调用module.setListener 将这个IocProxy传递过去，Activity调用module发起请求，回调给这个IOCProxy,IOCProxy 再回调给这个Activity；
+
+//其实还有一个流程， 这里可以让ABSActivity 实现一个监听，当一个module创建的时候同时，然后直接传递一个module，在实现方法里调用抽象方法，在ABSActivity实现类实现这个方法；省去了代理对象，（其实代理对象如果对这个对象前后有修改是可以存在的）
