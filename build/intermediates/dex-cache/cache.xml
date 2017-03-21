@@ -1,3 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_95a0943ee8a4e0c188ea244cd0e64dfb8737e5f4.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_0ebe14debe2880ef69e7c946c9a84200a6c48a87.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/libs/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/okio-1.6.0_01ae72e40061444f7afa622accf1b1a0b27dc8f7.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/libs/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_be1a5d83abdc602900c2e6c0d2dab3847079a21e.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/libs/gson-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/gson-2.2.2_fd6b5d30cb19158b7cc673341e7f49dfc4c1d184.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="acaeec786da68e5cfc30134c36cb5645a8a0c6ba">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.0-rc3_549e3560cb2fc360e01f0ae14e14fa2fa0ed2c30.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_3916ec46655d08f164d80e70835b09692a16a451.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_108aff78249feaddc1f0d775bc37b5102cdc757e.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/1.0-rc5/4d15bfec5956b906a26527dbde26a4fc84326611/baseLibrary-1.0-rc5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4d15bfec5956b906a26527dbde26a4fc84326611">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/baseLibrary-1.0-rc5_5fe2893124f63484a6572e55a956194a367d2ed7.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_93b624a975f3a0a970512606f2e7aaba8b6498a4.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2af1f443cdb8cb78e1195b9b99013a6089ab35b0">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.0-rc3_1a5e8bdc4df4ae9fe54ca296231518001e287077.jar" />
+    </item>
+    <item
+        jar="/Users/qiyue/GitProject/MVVM/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/qiyue/GitProject/MVVM/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_eff71691fdc104c5f2578b28b4603f8ea993e17a.jar" />
+    </item>
+
+</items>
